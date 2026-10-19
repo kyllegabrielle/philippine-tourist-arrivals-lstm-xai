@@ -5,6 +5,9 @@ import numpy as np
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Input, LSTM, Dense, Dropout
 from tensorflow.keras.callbacks import EarlyStopping
+from styles import apply_custom_css
+
+apply_custom_css()
 
 st.title("5. Train and tune the LSTM")
 

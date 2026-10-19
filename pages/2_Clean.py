@@ -1,5 +1,8 @@
 # pages/2_Clean.py
 import streamlit as st
+from styles import apply_custom_css
+
+apply_custom_css()
 
 st.title("2. Clean the data")
 

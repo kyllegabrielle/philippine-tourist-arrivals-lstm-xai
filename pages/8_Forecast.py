@@ -1,6 +1,9 @@
 # pages/8_Forecast.py
 import streamlit as st
 import pandas as pd
+from styles import apply_custom_css
+
+apply_custom_css()
 
 st.title("8. Forecast")
 

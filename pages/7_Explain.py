@@ -2,6 +2,9 @@
 import streamlit as st
 import numpy as np
 import shap
+from styles import apply_custom_css
+
+apply_custom_css()
 
 st.title("7. Explain with SHAP")
 

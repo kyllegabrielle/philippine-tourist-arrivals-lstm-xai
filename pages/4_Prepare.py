@@ -2,6 +2,9 @@
 import streamlit as st
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
+from styles import apply_custom_css
+
+apply_custom_css()
 
 st.title("4. Prevent leakage and prepare sequences")
 

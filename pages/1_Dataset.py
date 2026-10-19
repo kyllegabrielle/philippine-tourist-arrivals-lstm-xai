@@ -2,6 +2,9 @@
 import streamlit as st
 import pandas as pd
 from pathlib import Path
+from styles import apply_custom_css
+
+apply_custom_css()
 
 st.title("1. Dataset summary")
 

@@ -3,6 +3,9 @@ import streamlit as st
 import pandas as pd
 from scipy.stats import spearmanr
 from statsmodels.stats.outliers_influence import variance_inflation_factor
+from styles import apply_custom_css
+
+apply_custom_css()
 
 st.title("3. Feature selection")
 
