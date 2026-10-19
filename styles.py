@@ -149,5 +149,21 @@ def apply_custom_css():
         color: var(--green);
     }
 
+    /* Hide broken navigation icon text */
+    [data-testid="stSidebar"] [data-testid="stSidebarNav"] .material-symbols-rounded {
+        display: none !important;
+    }
+
+    /* Hide sidebar navigation icon elements */
+    [data-testid="stSidebarNav"] [data-testid="stIconMaterial"] {
+        display: none !important;
+    }
+
+    /* Hide the sidebar collapse control's broken icon */
+    [data-testid="stSidebarCollapseButton"] .material-symbols-rounded,
+    [data-testid="stSidebarCollapseButton"] [data-testid="stIconMaterial"] {
+        display: none !important;
+    }
+
     </style>
     """, unsafe_allow_html=True)
